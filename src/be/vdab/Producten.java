@@ -16,7 +16,7 @@ public abstract class Producten {
         return sProductNaam;
     }
 
-    public void setsProductNaam(String sProductNaam) {
+    public void setProductNaam(String sProductNaam) {
         if (!sProductNaam.trim().isEmpty())
         this.sProductNaam = sProductNaam;
     }

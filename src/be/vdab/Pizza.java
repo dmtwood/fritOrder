@@ -10,7 +10,7 @@ public class Pizza extends Producten {
 
     String sPizzaOmschrijving;
 
-    public void setsPizzaOmschrijving(String sPizzaOmschrijving) {
+    public void setPizzaOmschrijving(String sPizzaOmschrijving) {
         this.sPizzaOmschrijving = sPizzaOmschrijving;
     }
 
@@ -37,7 +37,7 @@ public class Pizza extends Producten {
 
     @Override
     public String toString() {
-        return sProductNaam + sPizzaOmschrijving + bdProductPrijs;
+        return sProductNaam + " \"" +  sPizzaOmschrijving + "\" :" + bdProductPrijs + "€";
     }
 
     @Override
